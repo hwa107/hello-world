@@ -1,0 +1,13 @@
+<p id="p_HTML">Hello World</p>
+
+<p id="p_jQuery"></p>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#p_jQuery").text("Hello World")
+  });
+</script>
+
+<p id="p_DB">
+  <% user = User.first %>
+  <%= user.first_name %> <%= user.last_name %>
+</p>
